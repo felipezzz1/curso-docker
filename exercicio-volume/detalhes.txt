@@ -1,0 +1,8 @@
+docker image pull -- baixar a imagem ou executa a imagem
+docker image ls -- lista as imagens existentes localmente no sistema
+docker image rm .nome da tag ou hash que voce quer remover -- remove uma imagem
+docker image inspect -- mostra um documento com as informações sobre a imagem
+docker image tag .imagem de origem .tag que queremos -- adiciona uma tag a imagem de origem
+docker image build -- pega arquivo e cria uma imagem
+docker image compose -- composiçao de varios containers e imagens
+docker image push -- uma vez que ha uma imagem existente, esse comando publica a imagem
